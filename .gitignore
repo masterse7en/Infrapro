@@ -1,0 +1,22 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform working directory
+.terraform/
+.terraform.tfstate.lock.info
+
+# Provider lock, keep this one
+# .terraform.lock.hcl
+
+# Variable files with secrets
+*.tfvars
+*.tfvars.json
+
+# SSH keys
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
