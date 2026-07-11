@@ -18,7 +18,7 @@ pipeline {
         )
         string(
             name: 'AWS_REGION',
-            defaultValue: 'ap-south-1',
+            defaultValue: 'ap-south-2',
             description: 'AWS region'
         )
         choice(
